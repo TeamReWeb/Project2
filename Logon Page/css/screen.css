@@ -10,7 +10,7 @@ http://yuilibrary.com/license/
  
 /* Actual stuff */
 html {
-  font-family: Roboto, "Palatino Linotype" "Times New Roman", Helvetica, Times, serif;
+  font-family: Roboto, Helvetica, "Palatino Linotype", "Times New Roman", Times, serif;
   background-color: #CC0000;
   color: #FFFFF0; 
   padding: 5% 5%;
@@ -30,7 +30,6 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
 }
 
 body {
@@ -40,12 +39,6 @@ body {
   margin-right: auto;
   text-align: center;
 
-}
-
-img {
-  padding-top: 0.34em;
-  /* Change the picture to work with the correct screen size.  */
-  max-width: 100%
 }
 main {
   background-color: transparent;
@@ -85,9 +78,6 @@ h3{
   background-color: transparent;
   color: #000000;
   text-shadow: 0.1em 0.1em 0.7em black;
-header {
-  text-align: center;
-  padding-bottom: 2em;
 }
 /* unvisited link */
 a:link {
