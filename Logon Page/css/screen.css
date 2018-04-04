@@ -1,4 +1,12 @@
-/* Reset code: */
+/* Reset code */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
 /*
 YUI 3.17.2 (build 9c3c78e)
 Copyright 2014 Yahoo! Inc. All rights reserved.
@@ -11,7 +19,7 @@ http://yuilibrary.com/license/
 /* Actual stuff */
 html {
   font-family: Roboto, Helvetica, "Palatino Linotype", "Times New Roman", Times, serif;
-  background-color: #CC0000;
+  background-color: #4C5D6F;
   color: #FFFFF0; 
   padding: 5% 5%;
 /* Prevent text-size adjustments when orientation changes on mobile devices */
@@ -76,7 +84,7 @@ h3{
   font-family: Arial, Helvetica, Sans-Serif;
   font-size: 1.0em;
   background-color: transparent;
-  color: #000000;
+  color: #c0c0c0;
   text-shadow: 0.1em 0.1em 0.7em black;
 }
 /* unvisited link */
@@ -98,15 +106,16 @@ a:hover {
 a:active {
     color: #80fff0;
 }
-#MyIIT-Logo {
+#TopImage {
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#IITAlert {
+#AssignmentAlert {
   text-align: center;
   display: block;
+  padding-top: 3em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -152,11 +161,11 @@ a:active {
  
 @media screen and (max-width: 32em) {
    h1 {
-     font-size: 2em;
+     font-size: 1.5em;
    }
 }
 @media screen and (max-width: 25em) {
    img {
-     max-width: 60%;
+     max-width: 90%;
    }
 }
